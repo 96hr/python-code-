@@ -13,3 +13,9 @@ names = ["OM", "HARSH", "UDIT", "SANJEEV", "SHIWADITYA", "ANUBHAV"]
 result = teams(names)
 for i, team in enumerate(result, 1):
     print(f"Team {i}: {team[0]} and {team[1]}")
+
+"""
+output-Team 1: ANUBHAV and HARSH
+Team 2: UDIT and SANJEEV
+Team 3: SHIWADITYA and OM
+"""
