@@ -1,0 +1,7 @@
+myfile = open("temp.txt", "w+")
+myfile.write("hello")
+myfile.write("welcome to Disneyland")
+myfile.flush()
+n = input("Press Enter to continue...")
+myfile.write("go to counter")
+myfile.close()
